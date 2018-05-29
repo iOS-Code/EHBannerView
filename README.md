@@ -1,15 +1,12 @@
-# YCBannerScrollView
+# EHBannerView
 
-[![CI Status](https://img.shields.io/travis/yuechenwork@163.com/YCBannerScrollView.svg?style=flat)](https://travis-ci.org/yuechenwork@163.com/YCBannerScrollView)
-[![Version](https://img.shields.io/cocoapods/v/YCBannerScrollView.svg?style=flat)](https://cocoapods.org/pods/YCBannerScrollView)
-[![License](https://img.shields.io/cocoapods/l/YCBannerScrollView.svg?style=flat)](https://cocoapods.org/pods/YCBannerScrollView)
-[![Platform](https://img.shields.io/cocoapods/p/YCBannerScrollView.svg?style=flat)](https://cocoapods.org/pods/YCBannerScrollView)
+[![Version](https://img.shields.io/cocoapods/v/EHBannerView.svg?style=flat)](https://cocoapods.org/pods/EHBannerView)
+[![License](https://img.shields.io/cocoapods/l/EHBannerView.svg?style=flat)](https://cocoapods.org/pods/EHBannerView)
+[![Platform](https://img.shields.io/cocoapods/p/EHBannerView.svg?style=flat)](https://cocoapods.org/pods/EHBannerView)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
