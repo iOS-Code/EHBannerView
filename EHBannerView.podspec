@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   
   s.homepage     = "https://github.com/iOS-Code/EHBannerView" # 你的主页
   s.source       = { :git => "https://github.com/iOS-Code/EHBannerView.git", :tag => "#{s.version}" }
-  s.source_files = "YCBannerView/*.{h,m,png}"
+  s.source_files = "EHBannerView/*.{h,m,png}"
 
   # User
   s.author             = { "ConnyYue" => "yuechenwork@163.com" } # 作者信息
