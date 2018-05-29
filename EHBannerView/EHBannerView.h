@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class YCBannerView;
+@class EHBannerView;
 
 #pragma mark -
 
@@ -45,7 +45,7 @@ UIImage *gifImageNamed(NSString *imageName);
 
 #pragma mark -
 
-@protocol YCBannerViewDelegate <NSObject>
+@protocol EHBannerViewDelegate <NSObject>
 
 /**
  *  该方法用来处理图片的点击，会返回图片在数组中的索引
@@ -54,7 +54,7 @@ UIImage *gifImageNamed(NSString *imageName);
  *  @param carouselView 控件本身
  *  @param index        图片索引
  */
-- (void)carouselView:(YCBannerView *)carouselView clickImageAtIndex:(NSInteger)index;
+- (void)carouselView:(EHBannerView *)carouselView clickImageAtIndex:(NSInteger)index;
 
 @end
 
@@ -65,7 +65,7 @@ UIImage *gifImageNamed(NSString *imageName);
  *  控件的frame必须设置，xib\sb创建的可不设置
  *  其他属性都有默认值，可不设置
  */
-@interface YCBannerView : UIView
+@interface EHBannerView : UIView
 
 #pragma mark 属性
 
@@ -146,7 +146,7 @@ UIImage *gifImageNamed(NSString *imageName);
 /**
  *  代理，用来处理图片的点击
  */
-@property (nonatomic, weak) id<YCBannerViewDelegate> delegate;
+@property (nonatomic, weak) id<EHBannerViewDelegate> delegate;
 
 
 #pragma mark 方法

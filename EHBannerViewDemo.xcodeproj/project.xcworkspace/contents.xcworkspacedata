@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YCBannerViewDemo.xcodeproj">
+      location = "self:/Users/yuechen/Home/CodeHome/EHBannerView/EHBannerViewDemo.xcodeproj">
    </FileRef>
 </Workspace>

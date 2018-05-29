@@ -1,4 +1,3 @@
-
 //
 //  YCBannerView.m
 //  YCBannerViewDemo
@@ -7,7 +6,7 @@
 //  Copyright © 2018年 KMF-Engineering. All rights reserved.
 //
 
-#import "YCBannerView.h"
+#import "EHBannerView.h"
 #import <ImageIO/ImageIO.h>
 
 #define DEFAULTTIME 5
@@ -46,7 +45,7 @@
 
 #pragma mark - YCBannerView @interface
 
-@interface YCBannerView()<UIScrollViewDelegate>
+@interface EHBannerView()<UIScrollViewDelegate>
 
 //轮播的图片数组
 @property (nonatomic, strong) NSMutableArray *images;
@@ -77,12 +76,12 @@ static NSString *cache;
 
 #pragma mark - YCBannerView @implementation
 
-@implementation YCBannerView
+@implementation EHBannerView
 
 #pragma mark 初始化方法
 //创建用来缓存图片的文件夹
 + (void)initialize {
-    cache = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"YCBanner"];
+    cache = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"EHBanner"];
     BOOL isDir = NO;
     BOOL isExists = [[NSFileManager defaultManager] fileExistsAtPath:cache isDirectory:&isDir];
     if (!isExists || !isDir) {

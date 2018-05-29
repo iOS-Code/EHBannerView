@@ -13,15 +13,16 @@
 		B001DC8920BC0C0600A9A7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B001DC8820BC0C0600A9A7F6 /* Assets.xcassets */; };
 		B001DC8C20BC0C0600A9A7F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B001DC8A20BC0C0600A9A7F6 /* LaunchScreen.storyboard */; };
 		B001DC8F20BC0C0600A9A7F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B001DC8E20BC0C0600A9A7F6 /* main.m */; };
-		B001DC9820BC0C2C00A9A7F6 /* YCBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B001DC9720BC0C2C00A9A7F6 /* YCBannerView.m */; };
+		B001DC9820BC0C2C00A9A7F6 /* EHBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B001DC9720BC0C2C00A9A7F6 /* EHBannerView.m */; };
 		B001DCAD20BC105400A9A7F6 /* YCPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B001DCA920BC105400A9A7F6 /* YCPlaceholder.png */; };
 		B001DCB220BC183200A9A7F6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B001DCAF20BC183200A9A7F6 /* 1.jpg */; };
 		B001DCB320BC183200A9A7F6 /* placeholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B001DCB020BC183200A9A7F6 /* placeholderImage.jpg */; };
 		B001DCB420BC183200A9A7F6 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B001DCB120BC183200A9A7F6 /* 2.gif */; };
+		B05787C320BD1B9D000225E0 /* EHBannerView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B05787C220BD1B9C000225E0 /* EHBannerView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B001DC7C20BC0C0500A9A7F6 /* YCBannerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCBannerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B001DC7C20BC0C0500A9A7F6 /* EHBannerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHBannerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B001DC7F20BC0C0500A9A7F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B001DC8020BC0C0500A9A7F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B001DC8220BC0C0500A9A7F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -31,12 +32,13 @@
 		B001DC8B20BC0C0600A9A7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B001DC8D20BC0C0600A9A7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B001DC8E20BC0C0600A9A7F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B001DC9620BC0C2C00A9A7F6 /* YCBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCBannerView.h; sourceTree = "<group>"; };
-		B001DC9720BC0C2C00A9A7F6 /* YCBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCBannerView.m; sourceTree = "<group>"; };
+		B001DC9620BC0C2C00A9A7F6 /* EHBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHBannerView.h; sourceTree = "<group>"; };
+		B001DC9720BC0C2C00A9A7F6 /* EHBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHBannerView.m; sourceTree = "<group>"; };
 		B001DCA920BC105400A9A7F6 /* YCPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YCPlaceholder.png; sourceTree = "<group>"; };
 		B001DCAF20BC183200A9A7F6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		B001DCB020BC183200A9A7F6 /* placeholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholderImage.jpg; sourceTree = "<group>"; };
 		B001DCB120BC183200A9A7F6 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		B05787C220BD1B9C000225E0 /* EHBannerView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EHBannerView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +55,9 @@
 		B001DC7320BC0C0500A9A7F6 = {
 			isa = PBXGroup;
 			children = (
-				B001DC9520BC0C1F00A9A7F6 /* YCBannerView */,
-				B001DC7E20BC0C0500A9A7F6 /* YCBannerViewDemo */,
+				B05787C220BD1B9C000225E0 /* EHBannerView.podspec */,
+				B001DC9520BC0C1F00A9A7F6 /* EHBannerView */,
+				B001DC7E20BC0C0500A9A7F6 /* EHBannerViewDemo */,
 				B001DC7D20BC0C0500A9A7F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +65,12 @@
 		B001DC7D20BC0C0500A9A7F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B001DC7C20BC0C0500A9A7F6 /* YCBannerViewDemo.app */,
+				B001DC7C20BC0C0500A9A7F6 /* EHBannerViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B001DC7E20BC0C0500A9A7F6 /* YCBannerViewDemo */ = {
+		B001DC7E20BC0C0500A9A7F6 /* EHBannerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				B001DC7F20BC0C0500A9A7F6 /* AppDelegate.h */,
@@ -83,25 +86,25 @@
 				B001DC8D20BC0C0600A9A7F6 /* Info.plist */,
 				B001DC8E20BC0C0600A9A7F6 /* main.m */,
 			);
-			path = YCBannerViewDemo;
+			path = EHBannerViewDemo;
 			sourceTree = "<group>";
 		};
-		B001DC9520BC0C1F00A9A7F6 /* YCBannerView */ = {
+		B001DC9520BC0C1F00A9A7F6 /* EHBannerView */ = {
 			isa = PBXGroup;
 			children = (
-				B001DC9620BC0C2C00A9A7F6 /* YCBannerView.h */,
-				B001DC9720BC0C2C00A9A7F6 /* YCBannerView.m */,
+				B001DC9620BC0C2C00A9A7F6 /* EHBannerView.h */,
+				B001DC9720BC0C2C00A9A7F6 /* EHBannerView.m */,
 				B001DCA920BC105400A9A7F6 /* YCPlaceholder.png */,
 			);
-			path = YCBannerView;
+			path = EHBannerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B001DC7B20BC0C0500A9A7F6 /* YCBannerViewDemo */ = {
+		B001DC7B20BC0C0500A9A7F6 /* EHBannerViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B001DC9220BC0C0600A9A7F6 /* Build configuration list for PBXNativeTarget "YCBannerViewDemo" */;
+			buildConfigurationList = B001DC9220BC0C0600A9A7F6 /* Build configuration list for PBXNativeTarget "EHBannerViewDemo" */;
 			buildPhases = (
 				B001DC7820BC0C0500A9A7F6 /* Sources */,
 				B001DC7920BC0C0500A9A7F6 /* Frameworks */,
@@ -111,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = YCBannerViewDemo;
+			name = EHBannerViewDemo;
 			productName = YCBannerViewDemo;
-			productReference = B001DC7C20BC0C0500A9A7F6 /* YCBannerViewDemo.app */;
+			productReference = B001DC7C20BC0C0500A9A7F6 /* EHBannerViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B001DC7720BC0C0500A9A7F6 /* Build configuration list for PBXProject "YCBannerViewDemo" */;
+			buildConfigurationList = B001DC7720BC0C0500A9A7F6 /* Build configuration list for PBXProject "EHBannerViewDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B001DC7B20BC0C0500A9A7F6 /* YCBannerViewDemo */,
+				B001DC7B20BC0C0500A9A7F6 /* EHBannerViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +162,7 @@
 				B001DC8720BC0C0500A9A7F6 /* Main.storyboard in Resources */,
 				B001DCAD20BC105400A9A7F6 /* YCPlaceholder.png in Resources */,
 				B001DCB220BC183200A9A7F6 /* 1.jpg in Resources */,
+				B05787C320BD1B9D000225E0 /* EHBannerView.podspec in Resources */,
 				B001DCB320BC183200A9A7F6 /* placeholderImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +176,7 @@
 			files = (
 				B001DC8420BC0C0500A9A7F6 /* ViewController.m in Sources */,
 				B001DC8F20BC0C0600A9A7F6 /* main.m in Sources */,
-				B001DC9820BC0C2C00A9A7F6 /* YCBannerView.m in Sources */,
+				B001DC9820BC0C2C00A9A7F6 /* EHBannerView.m in Sources */,
 				B001DC8120BC0C0500A9A7F6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZT38DY35DB;
-				INFOPLIST_FILE = YCBannerViewDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EHBannerViewDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -333,7 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZT38DY35DB;
-				INFOPLIST_FILE = YCBannerViewDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EHBannerViewDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -348,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B001DC7720BC0C0500A9A7F6 /* Build configuration list for PBXProject "YCBannerViewDemo" */ = {
+		B001DC7720BC0C0500A9A7F6 /* Build configuration list for PBXProject "EHBannerViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B001DC9020BC0C0600A9A7F6 /* Debug */,
@@ -357,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B001DC9220BC0C0600A9A7F6 /* Build configuration list for PBXNativeTarget "YCBannerViewDemo" */ = {
+		B001DC9220BC0C0600A9A7F6 /* Build configuration list for PBXNativeTarget "EHBannerViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B001DC9320BC0C0600A9A7F6 /* Debug */,

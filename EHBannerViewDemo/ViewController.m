@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "YCBannerView.h"
+#import "EHBannerView.h"
 
-@interface ViewController ()<YCBannerViewDelegate>
+@interface ViewController ()<EHBannerViewDelegate>
 
-@property (strong, nonatomic) YCBannerView *bannerView;
+@property (strong, nonatomic) EHBannerView *bannerView;
 
 @end
 
@@ -29,7 +29,7 @@
 
     NSArray * titleArr = @[@"网图", @"JPG", @"网络动态图", @"GIF"];
     
-    _bannerView = [[YCBannerView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 180)];
+    _bannerView = [[EHBannerView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 180)];
     _bannerView.delegate = self;
     _bannerView.placeholderImage = [UIImage imageNamed:@"placeholderImage.jpg"];
     _bannerView.imageArray = arr;
@@ -49,11 +49,11 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [YCBannerView clearDiskCache];
+    [EHBannerView clearDiskCache];
 }
 
 #pragma mark XRCarouselViewDelegate
-- (void)carouselView:(YCBannerView *)carouselView clickImageAtIndex:(NSInteger)index
+- (void)carouselView:(EHBannerView *)carouselView clickImageAtIndex:(NSInteger)index
 {
     NSLog(@"点击了第%ld张图片", index);
 }
